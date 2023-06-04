@@ -1,0 +1,21 @@
+{
+  "name": "se-microservice",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node api/index.js",
+    "start:dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "stripe": "^9.8.0",
+    "uuidv4": "^6.2.13"
+  }
+}
